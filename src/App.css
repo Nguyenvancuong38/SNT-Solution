@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/7314.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  /* height: 600px; */
 }
 
 .App-logo {
@@ -32,7 +38,86 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.grid {
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: -12px;
+  margin-right: -12px; */
+}
+
+.grid-m {
+  max-width: 1200px;
+  display: block;
+  padding-left: auto;
+  padding-right: auto;
+  /* margin: 0; */
+}
+
+.row-m {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.col {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-m {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.l-0 {
+  display: none;
+}
+
+.l-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.l-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+
+.l-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.l-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
+.l-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+
+.l-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
 }

@@ -1,0 +1,17 @@
+.heading {
+    display: flex;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.heading_logout {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+
+}
